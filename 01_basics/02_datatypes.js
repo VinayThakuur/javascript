@@ -30,3 +30,22 @@ console.log(typeof null)
 //the type of undefined is undefined where as null is an object
 
 
+//datatypes summary
+
+
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
+
+
+
