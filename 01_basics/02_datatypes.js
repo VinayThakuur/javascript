@@ -49,3 +49,9 @@ console.log(typeof null)
 
 
 
+//JS has automatic gc (garbage collector) whereas in languages like C you have to 
+// allocate and free the memory yourself. 
+// Stack memory is used for Primitive data types and Heap memory is used for 
+// non-primitive data types in JS
+
+
