@@ -27,21 +27,23 @@
 
 
 
-console.log(Math)
-console.log(Math.abs(-5));// basically this converts the negative value into
+// console.log(Math)
+// console.log(Math.abs(-5));// basically this converts the negative value into
 //  possitive approx value
 
-console.log(Math.round(4.7)) //this is used when you don't value in decimels so
+// console.log(Math.round(4.7)) //this is used when you don't value in decimels so
 //  this function round off's the value and give you the output
 
 
-console.log(Math.ceil(4.2))//ceil is used when you want to set the approx value to upper
+// console.log(Math.ceil(4.2))//ceil is used when you want to set the approx value to upper
 
 
-console.log(Math.floor(4.9))// floor is used when you want to set the approx value to lower
+// console.log(Math.floor(4.9))// floor is used when you want to set the approx value to lower
 
 
+console.log(Math.random()); // it gives us random values between 0 and 1, mostly decimal
 
+console.log((Math.random()*10)+1);// we use +1 only to prevent second value to become zero...
 
-
+//trick or formula to find min and max
 
