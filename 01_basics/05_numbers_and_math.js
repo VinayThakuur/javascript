@@ -41,9 +41,19 @@
 // console.log(Math.floor(4.9))// floor is used when you want to set the approx value to lower
 
 
-console.log(Math.random()); // it gives us random values between 0 and 1, mostly decimal
+// console.log(Math.random()); // it gives us random values between 0 and 1, mostly decimal..
 
-console.log((Math.random()*10)+1);// we use +1 only to prevent second value to become zero...
+// console.log((Math.random()*10)+1);// we use +1 only to prevent second value to become zero...(above 0)
+
+//console.lo(Math.floor((Math.random()*10)+1)
 
 //trick or formula to find min and max
+const min =10;
+const max= 20;
+console.log(Math.floor(Math.random()*(max-min+1))+min);//this is used to get the random values between 
+// the given values min and max
+
+
+
+
 
