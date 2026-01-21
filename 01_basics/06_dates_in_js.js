@@ -11,12 +11,13 @@ let myNewDate = new Date("01-01-2025")// Indian standards
 // console.log(myNewDate.toString());
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);
+// console.log(myTimeStamp);
 
-console.log(myNewDate.getTime());//used to compare.....
+// console.log(myNewDate.getTime());//used to compare.....
+console.log(Math.floor(Date.now()/1000));// to avoid decimal values
 
-
-
+let newDate = new Date()
+console.log(newDate.getDate());
 
 
 
