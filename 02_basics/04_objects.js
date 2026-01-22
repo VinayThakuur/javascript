@@ -36,10 +36,23 @@ const obj3 = {...obj1,...obj2} // prefer this spread operation more because this
 
 //some times in projects we have given the objects in the arrays , we can access them by using same (.)
 
-console.log(Object.keys(tinderUser))// it's datatype will be array, we can perform various task on it . through projects this will understand better
-console.log(Object.values(tinderUser))//to find the values of object
-console.log(Object.entries(tinderUser))// very less used.. it shows us the key and it's value
+// console.log(Object.keys(tinderUser))// it's datatype will be array, we can perform various task on it . through projects this will understand better
+// console.log(Object.values(tinderUser))//to find the values of object
+// console.log(Object.entries(tinderUser))// very less used.. it shows us the key and it's value
 
-//we can also ask for the proterty that it is available on it or not by
+// //we can also ask for the proterty that it is available on it or not by
 
-console.log(tinderUser.hasOwnProperty('hakya'))
+// console.log(tinderUser.hasOwnProperty('hakya'))
+
+const course ={
+    courseName: "js in Hindi",
+    price : "999",
+    courceInstructor : "Hitesh"
+}
+//course.courceInstructor
+// this is known as the destructuring of the object
+const {courceInstructor:instructor} = course // this is the syntax that we can follow to change the name of any object
+console.log(instructor)
+// destructuring happans only between ({}) curly braces , always remeber that
+
+//json is an api jo ki abhi aage hum aur detail me padhne wale ha.........
