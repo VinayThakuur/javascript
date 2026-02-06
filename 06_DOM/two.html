@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color :blanchedalmond">
+    <div class="parent">
+        <div class="days">monday</div>
+        <div class="days">tuesday</div>
+        <div class="days">wednesday</div>
+        <div class="days">thursday</div>
+        <div class="days">friday</div>
+    </div>
+    
+</body>
+
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent)
+    // console.log(parent.children);
+    // console.log(parent.children[0] .innerHTML);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //      console.log(parent.children[i].innerHTML);
+        
+        
+    // }
+
+    //to color the child of the parent
+    // parent.children[2].style.color= 'green' 
+    // parent.children[2].style.padding= '25px' 
+    // parent.children[2].style.margin= '25px' 
+    // console.log(parent.firstElementChild)
+    // console.log(parent.lastElementChild)
+
+    const dayOne = document.querySelector(".days")
+    // console.log(dayOne)
+    //from here we cas access it's parent element by=>
+
+    // console.log(dayOne.parentElement) //or
+
+    // console.log(dayOne.nextElementSibling)
+
+//now the turn of nodelist
+
+console.log("Nodes :" , parent.childNodes)
+</script>
+</html>
