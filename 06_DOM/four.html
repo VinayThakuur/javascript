@@ -13,8 +13,30 @@
 </body> 
 
 <script>
-function addLang(langName){
+
+    //this is a complex way.......
+
+// function addLang(langName){
+//     const li = document.createElement('li')
+//     li.innerHTML = `${langName}`
+//     document.querySelector('.language').
+//     appendChild(li)
+// }
+
+// addLang("python")
+// addLang('typescript')
+
+
+
+// more optimized way is =>
+
+function optWay(langName){
     const li = document.createElement('li')
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector('.language').appendChild(li)
 }
+ 
+ optWay('Java')
+ optWay('Python')
 </script>
 </html>
