@@ -38,5 +38,31 @@ function optWay(langName){
  
  optWay('Java')
  optWay('Python')
+
+
+//  edit
+
+const secondLang = document.querySelector("li:nth-child(2)")
+
+secondLang.innerHTML = ("mojo")
+ // Another way=>
+// const newLi = document.createElement('li')
+// newLi.textContent ="Mojo"
+// secondLang.replaceWith(newLi)
+
+
+const firstLang = document.querySelector("li:nth-child(1)")
+// firstLang.innerHTML = "typescript"
+
+// or  we can do this=>
+
+const newLi = document.createElement('li')
+newLi.textContent = " typescript"
+firstLang.replaceWith(newLi)
+
+// remove
+
+const lastLang = document.querySelector("li:last-child")
+lastLang.remove()
 </script>
 </html>
